@@ -1,0 +1,3 @@
+.btn {
+  @include buttonStyle($color-white, $color-main, 30px, 12px, 14px);
+}

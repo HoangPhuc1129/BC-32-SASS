@@ -1,0 +1,17 @@
+// Base
+@import "./base/reset";
+@import "./base/customize";
+
+// Helpers
+@import "./helpers/mixin";
+@import "./helpers/variables";
+
+// Components
+@import "./components/button";
+
+// Layouts
+@import "./layouts/header";
+@import "./layouts/carousel";
+@import "./layouts/people";
+@import "./layouts/form";
+@import "./layouts/footer";

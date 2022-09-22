@@ -1,0 +1,77 @@
+.carousel {
+  position: relative;
+  padding-top: 80px;
+  &__wrapper {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    .carousel__title h4 {
+      font-size: 1.2rem;
+      color: $color-main;
+      margin-bottom: 10px;
+    }
+    .carousel__title h1 {
+      font-size: 4.2rem;
+    }
+    .carousel__img {
+      width: 80%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &__bgImg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    img {
+      width: 100vw;
+      display: block;
+    }
+  }
+  &__bgImg2 {
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    img {
+      width: 100vw;
+      display: block;
+    }
+  }
+}
+
+//=========== Responsive======================
+@media only screen and (max-width: 1200px) {
+  .carousel {
+    &__wrapper {
+      padding: 80px;
+      .carousel__title h4 {
+        font-size: 1rem;
+      }
+      .carousel__title h1 {
+        font-size: 3.5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .carousel__wrapper {
+    flex-flow: column;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .carousel {
+    &__wrapper {
+      padding: 40px;
+      .carousel__title h4 {
+        font-size: 0.8rem;
+      }
+      .carousel__title h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+}

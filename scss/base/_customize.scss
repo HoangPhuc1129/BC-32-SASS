@@ -1,0 +1,50 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html {
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+// .form__content {
+//   padding: 20px 0;
+//   box-shadow: 0px 15px 10px 5px rgb(0, 0, 0, 0.2);
+
+//   h3 {
+//     text-align: center;
+//     font-size: 2.5rem;
+//     margin-bottom: 30px;
+//   }
+//   .content--name-email {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 20px;
+//     padding: 20px;
+//     .name {
+//       padding: 0 20px;
+//       border-radius: 30px;
+//       overflow: hidden;
+//       padding: 5px;
+//       display: flex;
+//       align-items: center;
+//       border: 1px solid gray;
+//       i {
+//         margin: 10px;
+//         color: $color-main;
+//       }
+
+//       input {
+//         width: 100%;
+//         border: none;
+//         outline: none;
+//         // padding: 10px 0px;
+//         // margin: 5px;
+//       }
+//     }
+//     .email {
+//       @extend .name;
+//     }
+//   }
+// }

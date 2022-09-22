@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tabula</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- wow js -->
+    <!-- <link rel="stylesheet" href="css/animate.css" /> -->
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="header__wrapper">
+        <div class="logo">
+          <a href="#" class="header__logo"
+            ><img src="./tabula-img/crest.png"
+          /></a>
+        </div>
+        <div class="navbar">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Home</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li class="active">
+                <a href="#">About</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li>
+                <a href="#">Courses</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li>
+                <a href="#">Blog</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li>
+                <a href="#">Shop</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li>
+                <a href="#">Elements</a>
+                <i class="fa-solid fa-chevron-down"></i>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__contact">
+            <div class="header__button">
+              <button class="btn">
+                <a href="#">
+                  <i class="fa-solid fa-phone-flip"></i>
+                  <span>(+1) 555 234-8765</span>
+                </a>
+              </button>
+            </div>
+            <div class="header__socialIcon">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header id="header" class="header3">
+      <div class="checkbox">
+        <button id="close" onclick="openSidebar(false)">
+          <i class="fa-solid fa-x"></i>
+        </button>
+        <button id="open" onclick="openSidebar(true)">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <a href="#" class="img1">
+          <img src="./tabula-img/crest.png" alt="" />
+        </a>
+      </div>
+      <div class="header__wrapper3">
+        <div class="logo">
+          <a href="#" class="header__logo"
+            ><img src="./tabula-img/crest.png"
+          /></a>
+        </div>
+        <div class="navbar">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Home</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li class="active">
+                <a href="#">About</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li>
+                <a href="#">Courses</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li>
+                <a href="#">Blog</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li>
+                <a href="#">Shop</a> <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li>
+                <a href="#">Elements</a>
+                <i class="fa-solid fa-chevron-down"></i>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__contact">
+            <div class="header__button">
+              <button class="btn">
+                <a href="#">
+                  <i class="fa-solid fa-phone-flip"></i>
+                  <span>(+1) 555 234-8765</span>
+                </a>
+              </button>
+            </div>
+            <div class="header__socialIcon">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Carousel -->
+    <section class="carousel">
+      <article class="carousel__wrapper">
+        <div class="wow carousel__title animate__animated animate__fadeInLeft">
+          <h4>ABOUT US</h4>
+          <h1>The language teaching experts</h1>
+        </div>
+        <div class="wow carousel__img animate__animated animate__fadeIn">
+          <img src="./tabula-img/hero_team.png" />
+        </div>
+      </article>
+      <div class="carousel__bgImg1">
+        <img src="./tabula-img/yellow_top_wave_01.png" />
+      </div>
+      <div class="carousel__bgImg2">
+        <img src="./tabula-img/Violet_top_left_wave.png" />
+      </div>
+    </section>
+
+    <!-- People -->
+    <section id="people">
+      <div class="people__wrapper">
+        <div class="people__content--above">
+          <div
+            class="wow content__item animate__animated animate__fadeIn animate__delay-1s"
+          >
+            <div class="item__img">
+              <img src="./tabula-img/teacher_1.jpg" />
+            </div>
+            <div class="item__text">
+              <h5>ITALIAN</h5>
+              <h4>July Roberts</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div
+            class="wow content__item animate__animated animate__fadeIn animate__delay-2s"
+          >
+            <div class="item__img">
+              <img src="./tabula-img/teacher_2.jpg" />
+            </div>
+            <div class="item__text">
+              <h5>FRENCH</h5>
+              <h4>Jon Stone</h4>
+              <p>Nanotechnology immersion along the information</p>
+            </div>
+          </div>
+          <div
+            class="wow content__item animate__animated animate__fadeIn animate__delay-3s"
+          >
+            <div class="item__img">
+              <img src="./tabula-img/teacher_3.jpg" />
+            </div>
+            <div class="item__text">
+              <h5>JAPANESE</h5>
+              <h4>Emma Stone</h4>
+              <p>Bring to the table win-win survival strategies to ensure</p>
+            </div>
+          </div>
+          <div
+            class="wow content__item animate__animated animate__fadeIn animate__delay-4s"
+          >
+            <div class="item__img">
+              <img src="./tabula-img/teacher_4.jpg" />
+            </div>
+            <div class="item__text">
+              <h5>CHINESE</h5>
+              <h4>Mark Lee</h4>
+              <p>Proactive domination. At the end of the day, going forward</p>
+            </div>
+          </div>
+        </div>
+        <div class="people__content--below">
+          <div
+            class="wow content__item animate__animated animate__fadeIn animate__delay-1s"
+          >
+            <div class="item__img">
+              <img src="./tabula-img/teacher_5.jpg" />
+            </div>
+            <div class="item__text">
+              <h5>RUSSIAN</h5>
+              <h4>John Doe</h4>
+              <p>A new normal that has evoled from generation X</p>
+            </div>
+          </div>
+          <div
+            class="wow content__item animate__animated animate__fadeIn animate__delay-2s"
+          >
+            <div class="item__img">
+              <img src="./tabula-img/teacher_6.jpg" />
+            </div>
+            <div class="item__text">
+              <h5>SWEDEN</h5>
+              <h4>Jane Smith</h4>
+              <p>Heading towards a streamlined cloud solution.</p>
+            </div>
+          </div>
+          <div
+            class="wow content__item animate__animated animate__fadeIn animate__delay-3s"
+          >
+            <div class="item__img">
+              <img src="./tabula-img/teacher_7.jpg" />
+            </div>
+            <div class="item__text">
+              <h5>SPANISH</h5>
+              <h4>Hanna Alverez</h4>
+              <p>Content in real-time will have multiple touchpoints.</p>
+            </div>
+          </div>
+          <div
+            class="wow content__item animate__animated animate__fadeIn animate__delay-4s"
+          >
+            <div class="item__img">
+              <img src="./tabula-img/teacher_8.jpg" />
+            </div>
+            <div class="item__text">
+              <h5>ITALIAN</h5>
+              <h4>July Roberts</h4>
+              <p>Capitalize on low hanging fruit to identify a ballpark.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="people__bgImg">
+        <img src="./tabula-img/Wave_White_bottom_right_shape_01.png" />
+      </div>
+    </section>
+    <!-- Form -->
+    <section id="form">
+      <div class="form__wrapper">
+        <div class="wow form__img animate__animated animate__fadeInLeft">
+          <img src="./tabula-img/conatct_inner.png" />
+        </div>
+        <div class="form__group">
+          <div class="wow form__content animate__animated animate__fadeIn">
+            <h3>Find Your Course</h3>
+
+            <div class="content--name-email">
+              <div class="name">
+                <i class="fa-regular fa-user"></i>
+                <input id="name" type="text" placeholder="Name" />
+              </div>
+              <div class="email">
+                <i class="fa-regular fa-envelope"></i>
+                <input id="email" type="text" placeholder="Email" />
+              </div>
+            </div>
+            <div class="select">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <select>
+                <option>English</option>
+                <option>French</option>
+                <option>Spanish</option>
+                <option>German</option>
+              </select>
+            </div>
+            <div class="message">
+              <i class="fa-regular fa-comment-dots"></i>
+              <textarea cols="30" rows="6" placeholder="Message"></textarea>
+            </div>
+            <div class="form__button"><a class="btn" href="#">SEND</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="form__bgImg">
+        <img src="./tabula-img/accent_bottom_wave_01.png" />
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__content">
+        <div
+          class="wow contact animate__animated animate__fadeIn animate__delay-1s"
+        >
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i
+              ><span> Franklin St, Greenpoint Ave</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone-flip"></i><span>+2342 5446 67</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-stopwatch"></i
+              ><span>Monday - Friday: 8 AM - 5 PM</span>
+            </li>
+          </ul>
+          <div class="contact__social">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div
+          class="wow quick-link animate__animated animate__fadeIn animate__delay-2s"
+        >
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div
+          class="wow about animate__animated animate__fadeIn animate__delay-3s"
+        >
+          <h3>About</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Get Quotes</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div
+          class="newsletter wow animate__animated animate__fadeIn animate__delay-4s"
+        >
+          <h3>Newsletter</h3>
+          <div class="newsletter__email">
+            <input type="text" placeholder="Your email" />
+
+            <a class="btn" href="#">SUBSCRIBE</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- wow js -->
+    <script src="./libs/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
